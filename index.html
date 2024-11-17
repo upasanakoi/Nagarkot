@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Nagarkot</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        p {
+            margin: 15px auto;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Header Section */
+        .header {
+            background: url('https://wildlandtrekking.com/content/uploads/2023/03/Lantang.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+            padding: 50px 20px;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Attractions Section */
+        .attractions {
+            padding: 50px 20px;
+            background-color: #e9eef5;
+        }
+
+        .attractions .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .attractions .card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            flex: 1 1 300px;
+        }
+
+        .attractions .card:hover {
+            transform: scale(1.05);
+        }
+
+        .attractions .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .attractions .card h3, .attractions .card p {
+            margin: 15px;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            padding: 50px 20px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .gallery .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <section class="header">
+        <h1>Welcome to Nagarkot</h1>
+        <p>Discover breathtaking views, serene trails, and the charm of nature.</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Nagarkot</h2>
+        <p>Nagarkot, located just a short drive from Kathmandu, is a popular destination for its panoramic Himalayan views. Known for its tranquil ambiance, it offers an escape from city life into the lap of nature.</p>
+        <img src="view.jpg" alt="Nagarkot Landscape">
+    </section>
+
+    <!-- Attractions Section -->
+    <section class="attractions">
+        <h2>Top Attractions</h2>
+        <div class="container grid">
+            <div class="card">
+                <img src="nagar.jpg" alt="Viewpoint">
+                <h3>Himalayan Viewpoint</h3>
+                <p>Enjoy the sunrise over the majestic Himalayas, including Mount Everest.</p>
+            </div>
+            <div class="card">
+                <img src="trai.jpg" alt="Nature Trail">
+                <h3>Nature Trails</h3>
+                <p>Explore scenic trails that wind through forests and charming villages.</p>
+            </div>
+            <div class="card">
+                <img src="tower.jpg" alt="Nagarkot Tower">
+                <h3>Nagarkot Tower</h3>
+                <p>Visit the observation tower for a 360-degree view of the surrounding landscapes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="container grid">
+            <img src="nagar1.jpg" alt="Gallery Image 1">
+            <img src="nagar2.jpg" alt="Gallery Image 2">
+            <img src="nagar3.jpg" alt="Gallery Image 3">
+            <img src="nagar4.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Discover Nagarkot. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
